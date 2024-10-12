@@ -10,7 +10,7 @@ import { AppService } from './app.service';
   imports: [
     // Configuración del ServeStaticModule
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '../../frontend', 'dist/frontend/browser'),
+      rootPath: join(__dirname, '../../frontend', 'dist/browser'),
       exclude: ['v1/api*'],
     }),
   ],
